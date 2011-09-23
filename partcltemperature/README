@@ -1,4 +1,4 @@
-This is a simple cketch that makes arduino retreive current temperature 
+This is a simple sketch that makes arduino retreive current temperature 
 from tmp102 sensor and publish it via HTTP GET query to the partcl.com
 website.
 
