@@ -1,0 +1,18 @@
+This is a simple script that makes arduino publish current temperature 
+from tmp102 sensor and publishes it via HTTP GET query to the partcl.com
+website.
+
+Requirements:
+=========================
+Hardware:
+- Ethernet shield
+- Tmp102 temperature sensor
+
+Software:
+- Arduino SDK ver.18 or higher
+- EthernetDHCP library if you want automatic network configuration via DHCP
+- EthernetDNS library if you want automatic hostname resolving 
+
+You can download EthernetDHCP and EthernetDNS libraries from 
+http://gkaindl.com/software/arduino-ethernet/dhcp
+If you don't want to use any of them comment corresponding #define.
