@@ -42,8 +42,6 @@ byte res;
 int val;
 const char* ip_to_str(const uint8_t*);
 
-Client client();
-
 void setup()
 {
   SPI.begin();
